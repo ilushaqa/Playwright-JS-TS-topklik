@@ -16,7 +16,7 @@ export class MainPage {
     }
 
     async standOpen() {
-        await allure.step("Авторизация", async () => {
+        await allure.step("Открытие сайта", async () => {
             await this.page.goto("https://dev.topklik.online/");
             await expect(this.page.getByText('Войдите в личный кабинет, чтобы начать расчет.')).toBeVisible();
         });
