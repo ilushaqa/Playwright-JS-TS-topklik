@@ -1,5 +1,6 @@
 import {test} from '@playwright/test';
-import {MainPage} from "../../pages/mainPage";
+
+import {MainPage} from "../pages/mainPage";
 
 let mainPage: MainPage;
 

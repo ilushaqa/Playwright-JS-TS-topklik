@@ -1,6 +1,7 @@
 import {test} from '@playwright/test';
-import {MainPage} from "../../pages/mainPage";
-import {CalculatorPage} from "../../pages/calculatorPage";
+
+import {MainPage} from "../pages/mainPage";
+import {CalculatorPage} from "../pages/calculatorPage";
 
 let mainPage: MainPage;
 let calculatorPage: CalculatorPage;
